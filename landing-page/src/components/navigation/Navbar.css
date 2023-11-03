@@ -1,5 +1,14 @@
 ul {
     display: flex;
     list-style: none;
+    
+    background-color: rgba(235, 131, 207, 0.22);
+    
 }
 
+a {
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+
+}

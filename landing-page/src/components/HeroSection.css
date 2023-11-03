@@ -1,0 +1,15 @@
+img {
+    width: 100vh;
+    padding-left: 10px ;
+}
+
+h1 {
+    font-size: 20px;
+    color: palevioletred;
+    position: static ;
+}
+
+#faithpic {
+     display: flex;
+     align-items: center;
+}
