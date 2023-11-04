@@ -4,9 +4,12 @@
     gap: 20px;
     width: 100%;
     justify-content: center;
-    background-image: linear-gradient( rgba(206, 73, 210, 0.553), rgba(238, 146, 223, 0.411),  white);
+  
 }
 
+#topmenu {
+  background-image: linear-gradient( rgba(206, 73, 210, 0.553), rgba(238, 146, 223, 0.411),  white);
+}
 
 a {
   color: palevioletred;

@@ -1,12 +1,10 @@
 import'./Navbar.css'
-import { Container } from 'reactstrap';
-
 
 
 export function Navbar() {
     return (
       <nav>
-        <Container id="topmenu">
+        <div id="topmenu">
           <ul id="menu">
             <li>
               <a href="#home">Home</a>
@@ -22,7 +20,7 @@ export function Navbar() {
               <a href="#contact">Contact</a>
             </li>
           </ul>
-        </Container>
+        </div>
       </nav>
     );
 }

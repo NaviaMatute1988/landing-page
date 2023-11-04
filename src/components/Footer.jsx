@@ -1,11 +1,10 @@
 import './Footer.css'
-import { Container } from 'reactstrap';
 
 
 export function Footer() {
     return (
       <>
-        <Container id="bm">
+        <div id="bm">
           <ul id="bottommenu">
             <li>
               <a href="#home">Home</a>
@@ -25,7 +24,7 @@ export function Footer() {
           </ul>
           <h4 id="terms"> Terms & Condition</h4>{" "}
           <h4 id="copy"> ©Faith & Fitness LLC 2021</h4>
-        </Container>
+        </div>
       </>
     );
 }
