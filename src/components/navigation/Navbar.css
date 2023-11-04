@@ -1,13 +1,16 @@
-ul {
+#menu {
     display: flex;
-    list-style: none;
-    
-    
+    list-style: none; 
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    background-image: linear-gradient( rgba(206, 73, 210, 0.553), rgba(238, 146, 223, 0.411),  white);
 }
+
 
 a {
   color: palevioletred;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 40px;
-
+  text-decoration: none; 
 }

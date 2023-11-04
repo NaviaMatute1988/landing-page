@@ -1,15 +1,31 @@
-img {
-    width: 100vh;
-    padding-left: 10px ;
-}
 
 h1 {
     font-size: 20px;
-    color: palevioletred;
-    position: static ;
+    color: palevioletred;  
 }
+
+#container {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+#cardthree{
+    align-items: center;
+}
+
 
 #faithpic {
      display: flex;
-     align-items: center;
+     width: 50vh;
+    
+}
+
+#workoutpic {
+    display: flex;
+     width: 50vh;
+}
+
+#freedompic {
+    display: flex;
+    width: 50vh;
 }

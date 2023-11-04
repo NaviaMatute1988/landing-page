@@ -1,0 +1,18 @@
+#bottommenu {
+    display: flex;
+    list-style: none; 
+    gap: 20px;
+    width: 100%;
+    justify-content: center ;
+    font-size: 1px;
+}
+
+#bm {
+ background-image: linear-gradient( white, rgba(238, 146, 223, 0.411), rgba(206, 73, 210, 0.553));
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+
+}

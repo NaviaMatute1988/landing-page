@@ -1,6 +1,6 @@
 import { Navbar } from "./components/navigation/Navbar"
 import { HeroSection } from "./components/HeroSection"
-import { Footer } from "./components/footer/Footer"
+import { Footer } from "./components/Footer"
 
 function App()  {
   return (
@@ -10,7 +10,7 @@ function App()  {
     <Footer/>
     </>
   )
-}
+};
 
 export default App
  

@@ -1,13 +1,12 @@
-import'./Navbar.css'
+import './Footer.css'
 import { Container } from 'reactstrap';
 
 
-
-export function Navbar() {
+export function Footer() {
     return (
-      <nav>
-        <Container id="topmenu">
-          <ul id="menu">
+      <>
+        <Container id="bm">
+          <ul id="bottommenu">
             <li>
               <a href="#home">Home</a>
             </li>
@@ -17,12 +16,16 @@ export function Navbar() {
             <li>
               <a href="#fitness">Fitness</a>
             </li>
-            <a href="#finances">Finances</a>
+            <li>
+              <a href="#finances">Finances</a>
+            </li>
             <li>
               <a href="#contact">Contact</a>
             </li>
           </ul>
+          <h4 id="terms"> Terms & Condition</h4>{" "}
+          <h4 id="copy"> ©Faith & Fitness LLC 2021</h4>
         </Container>
-      </nav>
+      </>
     );
 }
